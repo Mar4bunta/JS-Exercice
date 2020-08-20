@@ -20,9 +20,9 @@ function accelerer(){
 
 	function frame(){
 
-		posActuelle = document.getElementById("train").style.left;
+		posActuelle = train.style.left;
 		testerPosition(posActuelle);
-		document.getElementById("train").style.left = position++ + "px";
+		train.style.left = position++ + "px";
 
 	}
 
