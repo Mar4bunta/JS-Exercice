@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pizza</title>
+    </head>
+
+    <body>
+
+        <form>
+            
+            <p>
+                <label for="pizza">Liste des pizzas</label>
+
+                <select name="" id="pizza">
+                    <option value="4fromages">4 fromages</option>
+                    <option value="vegetarienne">Végétarienne</option>
+                    <option value="hawaienne">Hawaïenne</option>
+                    <option value="norvegienne">Norvégienne</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="menu">Menu</label>
+                <input type="checkbox" name="menu" id="menu">
+            </p>
+
+            <p>
+                <label for="pizzaSeule">Pizza seule</label>
+                <input type="checkbox" name="pizza seule" id="pizzaSeule">
+            </p>
+
+
+            <p>
+                <label for="quantite">Nombre de pizza</label>
+                <input type="number" name="quantité de pizza" id="quantite">
+            </p>
+            
+
+            <p>
+                Supplément<br>
+                <label for="champi">champignon</label>
+                <input type="checkbox" name="garniture" id="champi">
+                <label for="mozza">mozzarella</label>
+                <input type="checkbox" name="garniture" id="mozza">
+                <label for="olive">olive</label>
+                <input type="checkbox" name="garniture" id="olive">
+            </p>
+
+            <input type="button" name="Ajouter" id="add" value="Ajouter">
+            <input type="button" name="Editer" id="edit" value="Editer">
+
+        </form>
+
+        <script src="JS/script.js"></script>
+
+    </body>
+
+</html>
